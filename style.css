@@ -30,19 +30,20 @@
     padding-left:  100px;
     padding-right: 100px;
     */
-    flex-wrap: nowrap;  /*
+    /* flex-wrap: nowrap; */ 
+                        /*
                             wrap;
                             nowrap;
                         */
 }
 
-.caja{
+/*.caja{
     width: 75px;
     height: 75px;
     background-color: bisque;
     border: 1px solid black;
     
-    /*UNICAMENTE PARA EL TEXTO: */
+    UNICAMENTE PARA EL TEXTO: 
     display:flex;
     flex-direction: row;
     justify-content: center; 
@@ -57,7 +58,7 @@
     background-color: bisque;
     border: 1px solid black;
     
-    /*UNICAMENTE PARA EL TEXTO: */
+UNICAMENTE PARA EL TEXTO: 
     display:flex;
     flex-direction: row;
     justify-content: center; 
@@ -65,3 +66,62 @@
     color: darkblue;
     font-size: 30px;
 }
+*/
+
+.cajaGenerica{
+    display:flex;
+    flex-direction: row;
+    justify-content: center; 
+    align-items: center;
+    width: 75px;
+    height: 75px;
+    background-color: bisque;
+    border: 1px solid black;
+    color: darkblue;
+    font-size: 30px;    
+}
+
+.cajaA{
+    display: flex;
+    flex-grow: 1;
+}
+
+.cajaB{
+    display: flex;
+    flex-grow: 3;
+}
+
+/*
+    75 * 3 = 225px
+    1000 - 225 = 775
+    775 / 5 = 155
+
+    155 * 1 = 155 + 75 = 230
+    155 * 3 = 465 + 75 = 540
+    155 * 1 = 155 + 75 = 230
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
