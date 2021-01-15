@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 1000px;
+    height: 500px;
+    background-color: aquamarine;
+    display:flex;
+    flex-direction: row;
+}
+.cajaGenerica{
+    display:flex;
+    flex-direction: row;
+    justify-content: center; 
+    align-items: center;
+    width: 400px;
+    height: 75px;
+    background-color: bisque;
+    border: 1px solid black;
+    color: darkblue;
+    font-size: 30px;    
+}
+
+
+
+ /*EXCENDENTE DE 200
+ 200 / 3 = 66
+ 
+caja1 y caja3 = 400 - 66 = 333px
+caja2 = 400 - 66 = 433
+
+
+200px / 5 partes = 40px
+caja1 y caja3: 400px - 2*40px = 320px
+caja2: 400px - 1*40px = 360px;
+
+ */
+
+.cajaA{
+    display: flex;
+    flex-shrink: 2;    
+}
+
+.cajaB{
+    display: flex;
+    flex-shrink: 1;
+}
+
+
+
+
+
+
+
+
+
+
+
